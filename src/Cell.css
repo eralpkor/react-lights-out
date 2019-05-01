@@ -1,0 +1,34 @@
+.Cell {
+  height: 12vh;
+  width: 12vh;
+  border-radius: 1px;
+  background-color: #263238;
+  transition: background-color 0.7s ease;
+}
+
+.Cell-lit {
+  background-color: #00BCD4;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .Cell {
+    height: 10vh;
+    width: 10vh;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .Cell {
+    height: 8vh;
+    width: 8vh;
+  }
+}
+
+
+@media only screen and (max-width: 375px) {
+  .Cell {
+    height: 9vh;
+    width: 9vh;
+  }
+}
